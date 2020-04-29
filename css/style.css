@@ -120,11 +120,15 @@ body{
 }
 
 @media (max-width:992px){
-    body{
-        color: green;
+
+    section.Side{
+        display: none;
     }
 
     section.RIP{
-            display: none;
+        display: none;
+    }
+    section.RealChat{
+        margin-left: 50px;
     }
 }
