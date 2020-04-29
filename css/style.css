@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(110deg, #5328ff 60% , #1266ff 40%)
+    background:linear-gradient(110deg, #5328ff 50%  , #1266ff 40%)
 }
 .Content{
     height: 630px;
@@ -117,4 +117,14 @@ body{
 .message .Sender{
     background-color: #05728f;
 
+}
+
+@media (max-width:992px){
+    body{
+        color: green;
+    }
+
+    section.RIP{
+            display: none;
+    }
 }
