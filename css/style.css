@@ -52,6 +52,12 @@ body{
         transform: translateX(5px);
 }
 
+.active{
+    transition: 0.2s;
+    color: #0099ff;
+    transform: translateX(5px);
+}
+
 
 /************** end side********************/
 .Content .Center .Chat section{
