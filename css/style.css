@@ -130,5 +130,17 @@ body{
     }
     section.RealChat{
         margin-left: 50px;
+        width: 100%;
+    }
+    section.RealChat {
+        width: 200%;
+    }
+
+    div.Content{
+        /* margin-left: 0px; */
+        width: 1400px !important;
+    }
+    .navbar{
+        display: flexbox !important;
     }
 }
