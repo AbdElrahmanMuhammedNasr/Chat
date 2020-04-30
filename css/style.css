@@ -2,9 +2,9 @@ body{
     background:linear-gradient(110deg, #5328ff 50%  , #1266ff 40%)
 }
 .Content{
-    height: 630px;
+    height: 85vh;
     margin: auto;
-    margin-top: 15px;
+    margin:5vh auto;
     background-color: #5587c5;
     overflow: hidden;
     border-top-right-radius: 20px;
@@ -61,7 +61,7 @@ body{
 
 /************** end side********************/
 .Content .Center .Chat section{
-  height: 500px;
+  height: 65vh;
   background-color: #e8e6e6;
   overflow-y: scroll;
 }
@@ -129,18 +129,14 @@ body{
         display: none;
     }
     section.RealChat{
-        margin-left: 50px;
-        width: 100%;
+        margin-left: 65px;
+        
     }
-    section.RealChat {
-        width: 200%;
-    }
+ 
 
     div.Content{
         /* margin-left: 0px; */
-        width: 1400px !important;
+        margin-top:  20vh !important;
     }
-    .navbar{
-        display: flexbox !important;
-    }
+  
 }
