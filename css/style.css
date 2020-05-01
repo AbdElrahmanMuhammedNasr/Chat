@@ -3,7 +3,7 @@ body{
 }
 .Content{
     height: 85vh;
-    margin: auto;
+    width: 90%;
     margin:5vh auto;
     background-color: #5587c5;
     overflow: hidden;
@@ -121,13 +121,7 @@ body{
 
 @media (max-width:992px){
 
-    section.Side{
-        display: none;
-    }
-
-    section.RIP{
-        display: none;
-    }
+  
     section.RealChat{
         margin-left: 65px;
         
