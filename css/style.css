@@ -16,6 +16,7 @@ body{
 .Content .Side{
     background-color: #1266ff;
     left: -15px;
+    color: white;
 }
 .Content .Side .ImgName{
     margin-top: 20px;
@@ -44,6 +45,7 @@ body{
 .Content .Options button{
     transition: 0.2s;
     margin-top: 20px;
+    color: wheat;
     background-color: transparent;
 }
 .Content .Options button:hover{
@@ -74,7 +76,7 @@ body{
     transition: 1s;
     margin: auto;
     margin-top: 15px;
-    box-shadow: 10px 10px 10px grey;
+    /* box-shadow: 10px 10px 10px grey; */
     border-radius: 3px;
     background-color: white;
     /* transform: translate(-50%,-50%) */
@@ -87,7 +89,7 @@ body{
 .Content .Center .Chat section:nth-child(1) .Friend:hover{
         transition: 0.5s;
         transform: scale(0.9);
-        box-shadow: 20px 20px 20px grey;
+        /* box-shadow: 20px 20px 20px grey; */
 
 }
 
@@ -138,3 +140,6 @@ body{
     }
   
 }
+
+
+
